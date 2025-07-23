@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>I'm Sorry Saman Di 💔</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      min-height: 100vh;
+      background: radial-gradient(circle at center, #000000, #1a0033, #330033);
+      color: white;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+      perspective: 1500px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 60px 20px;
+    }
+
+    .card {
+      max-width: 900px;
+      background: rgba(255, 255, 255, 0.06);
+      backdrop-filter: blur(25px);
+      border-radius: 40px;
+      box-shadow: 0 0 100px rgba(255, 105, 180, 0.4), 0 0 150px rgba(138, 43, 226, 0.3);
+      padding: 50px;
+      transform: rotateX(1deg) rotateY(1deg);
+      animation: cardFloat 12s infinite ease-in-out;
+    }
+
+    @keyframes cardFloat {
+      0%, 100% {
+        transform: rotateX(1deg) rotateY(1deg);
+      }
+      50% {
+        transform: rotateX(2deg) rotateY(2deg) scale(1.02);
+      }
+    }
+
+    h1 {
+      font-size: 4.5em;
+      text-align: center;
+      margin-bottom: 40px;
+      color: #fff;
+      text-shadow: 0 0 40px #ff6ec4, 0 0 80px #ff6ec4, 0 0 120px #ff6ec4;
+      animation: titlePulse 3s ease-in-out infinite;
+    }
+
+    @keyframes titlePulse {
+      0%, 100% {
+        text-shadow: 0 0 40px #ff6ec4, 0 0 80px #ff6ec4;
+      }
+      50% {
+        text-shadow: 0 0 80px #ffffff, 0 0 160px #7873f5;
+      }
+    }
+
+    .message {
+      font-size: 1.8em;
+      padding: 30px;
+      background: rgba(255, 255, 255, 0.07);
+      border-radius: 30px;
+      box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.1);
+      line-height: 2.3;
+      text-align: justify;
+      animation: glowMessage 10s ease-in-out infinite;
+    }
+
+    @keyframes glowMessage {
+      0%, 100% {
+        box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.1);
+      }
+      50% {
+        box-shadow: inset 0 0 40px rgba(255, 255, 255, 0.15);
+      }
+    }
+
+    .footer {
+      margin-top: 50px;
+      text-align: center;
+      font-size: 1.6em;
+      opacity: 0.9;
+      animation: softGlow 5s ease-in-out infinite;
+      text-shadow: 0 0 10px #fff;
+    }
+
+    @keyframes softGlow {
+      0%, 100% {
+        opacity: 0.7;
+      }
+      50% {
+        opacity: 1;
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      h1 {
+        font-size: 2.8em;
+      }
+      .message {
+        font-size: 1.3em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>I’m Sorry, Saman Di 💔</h1>
+    <div class="message">
+      I know I've made a mistake — one I deeply regret. I want you to know that I never intended to hurt you.
+      You are an important person in my life, someone I respect and care for.  
+      <br><br>
+      I may not have said the right things… I may have failed to show how much you mean to me.  
+      But please believe me — from my heart — I am truly sorry.  
+      <br><br>
+      Your smile, your trust, and your presence matter more than you know. I can’t erase the past, but I can promise to do better.  
+      <br><br>
+      I hope this message reaches your heart and you find it within you to forgive me.  
+      You deserve kindness — and I want to give you nothing but that.  
+      <br><br>
+      I miss your smile, Saman Di. Please forgive me. 💖
+    </div>
+    <div class="footer">— Mayank 💫</div>
+  </div>
+</body>
